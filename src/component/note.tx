@@ -3,3 +3,20 @@ objective for today
 customised your app by clearing imporatnt codes
 create component and test the appropriately
 style your component working with images in react (images would be kept in asset folder)
+
+working with dynamic in react..
+
+ProPS - data pint
+
+
+outputing list (array)
+array can be array of anything.
+
+const names = ['John', 'Jane', 'Doe']; //map method, key prop
+
+
+create a component called Last view
+const lastviewproducts = [
+    { id: image: price: 100 },
+]
+use the MyStoreSingleproduct

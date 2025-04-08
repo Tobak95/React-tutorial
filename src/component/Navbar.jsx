@@ -1,6 +1,6 @@
 const Navbar = () => {
     return (
-      <nav className="c shadow-lg sticky top-0 bg-white z-30">
+      <nav className=" shadow-lg sticky top-0 bg-white z-30">
         <div className="container flex items-center justify-between h-[80px]">
           <h1 className="text-2xl italic font-bold font-serif">Momo...</h1>
           <div className="flex gap-5 text-sm md:text-lg font-semibold">
