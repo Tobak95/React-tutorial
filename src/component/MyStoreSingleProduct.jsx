@@ -4,8 +4,8 @@ const MyStoreSingleProduct = ({ image, title, price }) => {
   return (
     <div>
       <img src={image} alt={title} />
-      <p>{title}</p>
-      <p>{price}</p>
+      <p className='text-xl font-semibold'>{title}</p>
+      <p className='font-bold'>${price}</p>
 
       <div>
         

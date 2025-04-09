@@ -13,7 +13,7 @@ const LastView = () => {
     {
       id: 2,
       image:
-        "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill      (white)/product/18/5658304/1.jpg?8195",
+        "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/18/5658304/1.jpg?8195",
       title: "Rechargable Household Fan",
       price: 35099,
     },
@@ -41,7 +41,7 @@ const LastView = () => {
   ];
   return (
     <div className="max-w-[1300px] mx-auto">
-      <div className="">
+      <div>
         <h1 className="text-black bg-white  text-3xl">Last Viewed</h1>
       </div>
       <section className="flex gap-2 items-center flex-wrap">

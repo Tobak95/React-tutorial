@@ -10,11 +10,22 @@ import Simplelist from "./component/Simplelist";
 import Complexlist from "./component/Complexlist";
 import Mystore from "./component/Mystore";
 import LastView from "./component/LastView";
+import PropsChildren from "./component/PropsChildren";
+import EventHandling from "./component/EventHandling";
+import ConditionalREndering from "./component/ConditionalREndering";
+import SimpleState from "./component/SimpleState";
+import User from "./component/User";
+
 function App() {
   return (
     <div>
-      <Mystore />
-      <LastView />
+      {/* <Mystore />
+      <LastView /> */}
+      {/* <PropsChildren /> */}
+      {/* <EventHandling /> */}
+      {/* <ConditionalREndering /> */}
+       {/* <SimpleState />  */}
+      <User />
     </div>
   );
 }
