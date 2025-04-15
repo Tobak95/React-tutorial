@@ -193,3 +193,6 @@ conditional rendering
 
 ADDING INTERACTIVITY
 1. State Management : USE STATE: it gives us the ability to change values.
+
+
+useEffect allows us to reun function on the initial loading of the page and on every re-render

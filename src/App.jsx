@@ -15,7 +15,15 @@ import EventHandling from "./component/EventHandling";
 import ConditionalREndering from "./component/ConditionalREndering";
 import SimpleState from "./component/SimpleState";
 import User from "./component/User";
-
+import Complexstate from "./component/Complexstate";
+import ArrayComplexState2 from "./component/ArrayComplexState2";
+import ExampleArray from "./component/ExampleArray";
+import SimpleEffect from "./component/SimpleEffect";
+import FetchData from "./component/FetchData";
+import FetchUsers from "./component/FetchUsers";
+import GetAuthors from "./component/GetAuthors";
+import Reciepe from "./component/Reciepe";
+import SimpleForm from "./component/SimpleForm";
 function App() {
   return (
     <div>
@@ -25,8 +33,22 @@ function App() {
       {/* <EventHandling /> */}
       {/* <ConditionalREndering /> */}
        {/* <SimpleState />  */}
-      <User />
-    </div>
+       {/* <Complexlist /> */}
+      {/* <User /> */}
+      {/* <Complexstate /> */}
+      {/* <ArrayComplexState2 /> */}
+      {/* <ExampleArray /> */}
+      {/* <SimpleEffect /> */}
+      {/* <FetchData /> */}
+
+      {/* <FetchUsers /> */}
+
+        {/* <div className="flex flex-col gap-20">
+       <GetAuthors />
+      <Reciepe />
+        </div> */}
+        <SimpleForm />
+    </div> 
   );
 }
 
